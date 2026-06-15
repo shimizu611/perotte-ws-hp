@@ -3,12 +3,12 @@ import FadeIn from "@/components/animations/FadeIn";
 
 const works = [
   {
-    title: "松が丘ミニバスケットボールクラブ様",
+    title: "兵庫県下ミニバスケットボールクラブ様",
     description:
       "チーム紹介・活動スケジュール・お問い合わせ機能を掲載",
-    pcImage: "/images/works/minibas-pc.png",
-    spImage: "/images/works/minibas-sp.png",
-    url: "#",
+    pcImage: "/images/Works/minibas-pc.png",
+    spImage: "/images/Works/minibas-sp.png",
+    url: "https://www.matsugaoka-mbbc.com/",
   },
 ];
 
