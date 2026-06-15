@@ -40,7 +40,7 @@ export default function Works() {
               "
             >
               {/* 画像エリア */}
-              <div className="relative mb-10 pb-20 md:pb-0">
+              <div className="relative mb-10 md:mb-20 pb-20 md:pb-0">
                 <div className="bg-white p-3 rounded-2xl shadow-lg">
 
                     {/* PC画面 */}
@@ -53,55 +53,36 @@ export default function Works() {
                     />
                     </div>
                 </div>
+                {/* スマホ画面 */}
                 <div
                     className="
                     absolute
-                    right-8
-                    bottom-0
-                    w-[170px]
-                    rounded-3xl
+                    right-2
+                    bottom-[-10px]
+                    w-[28%]
+                    min-w-[90px]
+                    max-w-[150px]
+                    aspect-[9/16]
+                    rounded-2xl
+                    overflow-hidden
                     bg-white
-                    p-2
+                    border-4
+                    border-white
                     shadow-xl
-                "
-                >
-                    {/* スマホ上部 */}
-                    {/**
-                    <div className="flex justify-center mb-2">
-                        <div className="w-12 h-1.5 bg-gray-300 rounded-full" />
-                    </div>
-                     */}
-                    {/* スマホ画面 */}
-                    <div
-                    className="
-                        absolute
-                        right-2
-                        bottom-[-10px]
-                        w-[28%]
-                        min-w-[90px]
-                        max-w-[150px]
-                        aspect-[9/16]
-                        rounded-2xl
-                        overflow-hidden
-                        bg-white
-                        border-4
-                        border-white
-                        shadow-xl
 
-                        md:right-8
-                        md:bottom-[-40px]
-                        md:w-[170px]
-                        md:max-w-none
-                        md:rounded-3xl
+                    md:right-8
+                    md:bottom-[-40px]
+                    md:w-[170px]
+                    md:max-w-none
+                    md:rounded-3xl
                     "
-                    >
-                    <Image
-                        src={work.spImage}
-                        alt={`${work.title}のスマホ表示`}
-                        fill
-                        className="object-cover"
-                    />
-                    </div>
+                >
+                  <Image
+                      src={work.spImage}
+                      alt={`${work.title}のスマホ表示`}
+                      fill
+                      className="object-cover"
+                  />
                 </div>
               </div>
 
