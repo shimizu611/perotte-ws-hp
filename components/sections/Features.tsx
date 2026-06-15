@@ -79,9 +79,9 @@ export default function Features() {
                             <Image
                             src={feature.image}
                             alt={feature.title}
-                            width={260}
-                            height={260}
-                            className="object-contain w-44 md:w-56 h-auto"
+                            width={600}
+                            height={400}
+                            className="object-contain w-[80%] h-auto"
                             />
                         </div>
                     </div>
